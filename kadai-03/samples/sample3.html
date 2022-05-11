@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+            .hello {
+                color: red;
+                text-decoration: underline;
+            }
+            .bye {
+                color: yellowgreen;
+            }
+            #title-1 {
+                font-size: 50px;
+            }
+
+            #title-1+span {}
+            
+            .article {
+                border: 1px black solid;
+            }
+            .column {
+                border: 1px black dashed;
+            }
+            .science {
+                color: green;
+            }
+            .literature {
+                color: brown;
+            }
+            #title {
+                font-size: 24px;
+            }
+            .article h3 {
+                text-decoration: underline;
+            }
+            .column h3 {
+                font-family: serif;
+            }
+        </style>
+    </head>
+        <hr>
+        <h1 id="title">科学と文学の雑誌</h1>
+        <div class="article">
+            <h3>タイトル</h3>
+            これは〇〇に関する記事です
+        </div>
+        <div class="article science">
+            <h3>タイトル</h3>
+            これは科学に関する記事です
+        </div>
+        <div class="article literature">
+            <h3>タイトル</h3>
+            これは文学に関する記事です
+        </div>
+        <div class="column science">
+            <h3>タイトル</h3>
+            これは科学に関するコラムです
+        </div>
+        <div class="column literature">
+            <h3>タイトル</h3>
+            これは文学に関するコラムです
+        </div>
+    </body>
+</html>

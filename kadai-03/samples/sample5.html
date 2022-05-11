@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <ul id="students">
+            <li>A さん　100点</li>
+            <li>B さん　100点</li>
+        </ul>
+        名前<input type="text" id="name"><br>
+        得点<input type="text" id="score">
+        <button id="button">確定</button>
+
+        <script>
+            const button = document.getElementById("button")
+            const students = document.getElementById("students")
+            button.addEventListener("click",() =>{
+                const name = document.getElementById("name").value
+                const score = document.getElementById("score").value
+                const student = document.createElement("li")
+                student.textContent = name + "さんの得点は" + score + "点です"
+                students.appendChild(student)
+            })
+        </script>
+    </body>
+</html>
