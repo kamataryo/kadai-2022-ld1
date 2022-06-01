@@ -1,7 +1,0 @@
-Hello!
-Hello!
-Helloecho Hello! >> hello.txtecho Hello! >> hello.txt!
-Helloecho Helloecho Hello! Hello! Hello! Hello!
-こんにちは
-さようなら
-Hello World!
