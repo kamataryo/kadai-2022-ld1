@@ -1,1 +1,7 @@
 これは、 git reset コマンドを解説するためのサンプルです。
+git reset には、
+--soft
+--mixed
+--hard
+の3種類があります。
+git reset とは直接関係ありませんが、git commit --amend というコマンドもあります。
